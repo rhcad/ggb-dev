@@ -1,0 +1,15 @@
+._*
+~$*
+*.log
+*.tmp
+[Tt]humbs.db
+.DS_Store
+
+.idea/
+
+__pycache__/
+*.py[cod]
+
+web/
+web3d/
+webSimple/
