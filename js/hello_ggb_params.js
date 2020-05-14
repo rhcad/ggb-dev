@@ -4,7 +4,7 @@ var applets = [
     {ggbBase64: base64, id: 'applet2', enableShiftDragZoom: false},
     {ggbBase64: base64, id: 'applet3', borderColor: 'none', enableRightClick: false},
     {ggbBase64: base64, id: 'applet4', enableShiftDragZoom: false, borderColor: 'none'},
-    {ggbBase64: base64, id: 'applet5', enableRightClick: true},
+    {ggbBase64: base64, id: 'applet5', enableLabelDrags: false},
     {ggbBase64: base64, id: 'applet7', showToolBar: true, enableRightClick: false},
     {ggbBase64: base64, id: 'applet8', showMenuBar: true, enableFileFeatures: false},
     {ggbBase64: base64, id: 'applet9', showAlgebraInput: true, width: 600, height: 200}

@@ -45,7 +45,7 @@
 
 - 如果要离线使用，可 [下载][bundle] apps-bundle 到本地，引用本地的 `deployggb.js` 地址，同时设置`setHTML5Codebase`：
   ```js
-  ggbApp.setHTML5Codebase('GeoGebra/HTML5/5.0/webSimple/');
+  ggbApp.setHTML5Codebase('GeoGebra/HTML5/5.0/webSimple/', true); // offline=true
   ```
 
 ## 参考资料

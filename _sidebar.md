@@ -4,3 +4,5 @@
   - 在线展示GGB
     - [基本范例](hello_ggb.md)
     - [常见的图框参数](hello_ggb_params.md)
+    - [指定文件名加载GGB课件](hello_ggb_from_file.md)
+    - [指定base64编码加载GGB课件](hello_ggb_from_base64.md)
