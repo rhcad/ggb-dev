@@ -48,6 +48,8 @@
   ggbApp.setHTML5Codebase('GeoGebra/HTML5/5.0/webSimple/', true); // offline=true
   ```
 
+可查看在单独网页里展示GGB课件的 <a href="/hello_ggb.html" target="_blank">完整例子</a>。
+
 ## 参考资料
 
 - [GeoGebra Apps Embedding](https://wiki.geogebra.org/en/Reference:GeoGebra_Apps_Embedding)
