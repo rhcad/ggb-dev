@@ -9,19 +9,25 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="lib/themes/vue.css"/>
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  <script src="lib/zepto.min.js"></script>
+  <style>.content{padding-top: 0;}</style>
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
       name: 'GeoGebra二次开发',
-      repo: 'rhcad/ggb-dev',
       loadSidebar: true,
       search: {
         placeholder: '搜索',
         noData: '没有找到'
-      }
+      },
+      plugins: [
+        EditOnGithubPlugin.create('https://github.com/rhcad/ggb-dev/tree/master/')
+      ]
     };
+    // 要使用离线版的 apps-bundle，则修改 ggbCodebase 为本地目录，其下有 web 等子文件夹，例如 'GeoGebra/HTML5/5.0/'
     window.ggbCodebase = 'https://www.geogebra.org/apps/latest/';
   </script>
   <script src="lib/docsify/docsify.min.js"></script>
