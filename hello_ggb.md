@@ -16,6 +16,8 @@
 ```
 在docsify等动态渲染的Markdown正文中使用时，将此脚本引用加到 `index.html` 中提前引用，避免 `GGBApplet` 函数找不到。
 
+  可以使用本项目中整理过的 <a href="https://github.com/rhcad/ggb-dev/blob/master/lib/deployggb.js" target="_blank">deployggb.js</a>
+
 3. 向占位容器元素注入GGB图形：
 ```js
 <script>
@@ -33,7 +35,7 @@
 - `ggbBase64` 为GGB文件的base64编码内容，可用下面一种方法获得：
   - 使用“Base64Anywhere”等工具，从ggb文件得到base64编码文本
   - 在GeoGebra官方软件中打开课件，按下组合键 Ctrl + Shift + B (Windows) 或 Cmd + Shift + B (Mac) 得到base64文本
-  - 编写js或py代码从GGB文件得到，后续再介绍此方法
+  - 编写js或py代码从GGB文件得到，见“平台开发”的 [选择并展示GGB文件](show_ggb_file)
 
 - 'ggb-applet' 参数值为容器元素ID。既可以在GGBApplet函数中传入此参数（参数顺序无所谓），也可以在注入时传入：
   ```js
@@ -48,7 +50,7 @@
   ggbApp.setHTML5Codebase('GeoGebra/HTML5/5.0/webSimple/', true); // offline=true
   ```
 
-可查看在单独网页里展示GGB课件的 <a href="/hello_ggb.html" target="_blank">完整例子</a>。
+可查看在单独网页里展示GGB课件的 <a href="https://rhcad.github.io/ggb-dev/hello_ggb.html" target="_blank">完整例子</a>。
 
 ## 参考资料
 

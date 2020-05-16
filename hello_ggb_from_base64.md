@@ -44,4 +44,4 @@ applet.inject('applet');
 `ggbBase64` 为GGB文件的base64编码内容，可用下面一种方法获得：
   - 使用“Base64Anywhere”等工具，从ggb文件得到base64编码文本
   - 在GeoGebra官方软件中打开课件，按下组合键 Ctrl + Shift + B (Windows) 或 Cmd + Shift + B (Mac) 得到base64文本
-  - 编写js或py代码从GGB文件得到，后续再介绍此方法
+  - 编写js或py代码从GGB文件得到，见“平台开发”的 [选择并展示GGB文件](show_ggb_file)
