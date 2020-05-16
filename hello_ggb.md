@@ -12,7 +12,7 @@
 
 2. 引用核心脚本文件`deployggb.js`，其中有 `GGBApplet` 函数：
 ```js
-<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
 ```
 在docsify等动态渲染的Markdown正文中使用时，将此脚本引用加到 `index.html` 中提前引用，避免 `GGBApplet` 函数找不到。
 
@@ -25,7 +25,7 @@
     width: 600, height: 245,
     ggbBase64: 'UEsDBBQACAAI......APl5=='
   }, 'ggb-applet');
-  ggbApp.setHTML5Codebase('https://www.geogebra.org/apps/latest/webSimple/');
+  ggbApp.setHTML5Codebase('https://cdn.geogebra.org/apps/latest/webSimple/');
   window.onload = function() { ggbApp.inject('html5'); }
 </script>
 ```
