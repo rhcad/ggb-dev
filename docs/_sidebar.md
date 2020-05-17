@@ -1,6 +1,6 @@
 - 入门
 
-  - [快速开始](quickstart.md)
+  - [快速开始](README.md)
   - 在线展示GGB（基础）
     - [基本范例](hello_ggb.md)
     - [常见的图框参数](hello_ggb_params.md)
